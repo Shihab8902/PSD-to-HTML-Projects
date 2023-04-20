@@ -1,0 +1,241 @@
+/* Navigation menu designs */
+.navigation-menu{
+    padding: 30px 80px;
+    align-items: center;
+}
+
+
+.nav-container{
+    display:flex;
+    gap: 50px;
+    flex-direction: row;
+    position: relative;
+    top: 0;
+    left: 0;
+    backdrop-filter: none;
+    width: max-content;
+    height: max-content;
+    text-align: center;
+    padding-top: 0;
+    opacity: 1;
+    transform: translateX(0);
+}
+.nav-link{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+}
+
+.hamburger{
+   display: none;
+}
+
+/* Header content designs */
+.header-content-container{
+    width: 50%;
+    margin-top: 20px;
+    left: 30%;
+}
+.discount-banner{
+    font-size: 85px;
+    padding: 0px 0px 30px 0px;
+}
+.discount-desc{
+    font-size: 25px;
+    padding: 0px 0px 30px 0px;
+}
+.order-button{
+    background-color: #f64b3c;
+    width: 250px;
+    height: 55px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+}
+
+/* Our chef section designs */
+#chef{
+    height: 100vh;
+}
+.chef-heading{
+    font-size: 63px;
+}
+.chef-desc{
+    font-size: 25px;
+    width: 80%;
+    text-align: center;
+}
+.chef-name{
+    font-size: 33px;
+}
+.chef-job-status{
+    font-size: 25px;
+}
+
+
+/* Best burger section designs */
+#bestBurger{
+    background-color: #f64b3c;
+    padding: 80px 120px;
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    gap: 80px;
+    flex-direction: row;
+}
+.best-burger-img{
+   display:block;
+   width: 400px;
+}
+.best-burger-heading{
+    font-family: 'Archivo', sans-serif;
+    color: white;
+    font-size: 50px;
+    padding: 60px 0px 20px 0px;
+}
+.best-burger-desc{
+    font-family: 'Nunito', sans-serif;
+    color: white;
+    font-size: 20px;
+    padding: 0px 0px 30px 0px;
+}
+.best-burger-order-button{
+    font-family: 'Montserrat', sans-serif;
+    width: 180px;
+    height: 45px;
+    border: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #f64b3c;
+    border-radius: 45px;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+.best-burger-order-button:hover{
+    transform: scale(1.1);
+}
+
+/* Big burger section designs */
+#bigBurger{
+    width: 100%;
+    padding: 80px 120px;
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+/* Statistics section designs */
+#statistics{
+    height: 100vh;
+    padding: 80px;
+}
+.statistics-heading{
+    font-size: 50px;
+}
+.statistics-desc{
+    font-size: 24px;
+    padding: 20px 0px 60px 0px;
+}
+.statistics-container{
+    gap: 70px;
+}
+
+/* package section designs */
+#package{
+    height: 100vh;
+    padding: 50px 100px;
+}
+.package-container{
+    margin-top: 150px;
+    gap: 100px;
+}
+
+/* Review section designs */
+.red-overlay{
+    padding: 30px 120px;
+}
+.red-overlay p{
+    font-size: 30px;
+    line-height: 50px;
+    width: 60%;
+}
+.red-overlay h3{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 40px;
+}
+
+
+
+/* Newsletter section designs */
+#newsletter{
+    height: 100vh;
+    padding: 30px 100px;
+ }
+ .newsletter-heading{
+     font-size: 75px;
+ }
+ .newsletter-desc{
+     font-size: 28px;
+ }
+ form{
+     position: relative;
+     width: 80%;
+ }
+ #email{
+     width: 54%;
+     padding: 15px 20px;
+     border: none;
+     border-radius: 50px;
+     outline: none;
+     
+ }
+ #submitButton{
+     width: 20%;
+     height: 45px;
+     position: absolute;
+     right: 50px;
+     border:none;
+     border-top-right-radius: 50px;
+     border-bottom-right-radius: 50px;
+     background-color: #f64b3c;
+     color: white;
+     cursor: pointer;
+     font-family: 'Nunito', sans-serif;
+     text-transform: uppercase;
+ }
+
+
+ /* Footer section designs */
+footer{
+    width: 100%;
+    height: 100vh;
+    background-image: url("./images/footer.jpg");
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+    padding: 0px 120px;
+    gap: 80px;
+}
+.footer-first-content-container{
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 100px;
+}
+.main-links{
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+.other-links{
+    margin-top: 0;
+}
+.footer-second-content-container{
+    margin-top: 0;
+}
